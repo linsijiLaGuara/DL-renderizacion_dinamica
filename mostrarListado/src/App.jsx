@@ -2,7 +2,8 @@ import { useState } from 'react'
 
 import './App.css';
 import EnviarFormulario from './componts/enviarFormulario';
-
+import Operadores from './componts/Operadores'
+import Tareas from './componts/Tareas'
 function App() {
 
 
@@ -10,6 +11,9 @@ function App() {
     <>
 
       <EnviarFormulario />
+      <Operadores/>
+      <Tareas></Tareas>
+
 
  
 
