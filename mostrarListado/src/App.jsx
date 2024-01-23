@@ -1,14 +1,15 @@
 import { useState } from 'react'
 
 import './App.css';
-import enviarFormulario from './componts/enviarFormulario'
+import EnviarFormulario from './componts/enviarFormulario';
 
 function App() {
 
 
   return (
     <>
-      <enviarFormulario />
+
+      <EnviarFormulario />
 
  
 
