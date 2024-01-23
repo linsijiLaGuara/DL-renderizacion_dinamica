@@ -1,7 +1,8 @@
 import { useState } from 'react'
 
-import './App.css'
-import Tareas from './componts/Tareas'
+import './App.css';
+import Tareas from './componts/Tareas';
+import Operadores from './componts/Operadores';
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <Tareas />
+      <Operadores/>
     </>
   )
 }
