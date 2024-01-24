@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const EnviarFormulario = () => {
   const [nombreTarea, setNombreTarea] = useState("")
-  const listaTareas = ["Tarea 1", "Tarea 2", "Tarea 3"];
+  const [listaTareas, setListaTAreas] = useState(["Tarea 1", "Tarea 2", "Tarea 3"])
   const enviarFormulario = (e) => {
     e.preventDefault();
     console.log("Enviando formulario");
