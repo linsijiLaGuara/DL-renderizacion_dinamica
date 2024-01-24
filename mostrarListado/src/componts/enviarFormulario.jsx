@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 const EnviarFormulario = () => {
+  const [nombreTarea, setNombreTarea] = useState("")
   const listaTareas = ["Tarea 1", "Tarea 2", "Tarea 3"];
   const enviarFormulario = (e) => {
     e.preventDefault();
@@ -12,7 +15,7 @@ const EnviarFormulario = () => {
     <>
       <div>
         <form onSubmit={enviarFormulario}>
-          <input name="nombreTarea" onChange={capturaInput} />
+          <input name="nombreTarea" onChange={capturaInput} value={nombreTarea} />
           <button> Agregar Tarea </button>
         </form>
         <ul>
